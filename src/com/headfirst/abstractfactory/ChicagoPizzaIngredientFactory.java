@@ -4,7 +4,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
 	@Override
 	public Dough createDough() {
-		// TODO Auto-generated method stub
+		
 		return new ThickCrustDough();
 	}
 
